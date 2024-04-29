@@ -28,17 +28,17 @@ def solve_problem_5():
 problems = {
     1: "Given p=1 and q=8, find the value 5p + 12q.",
     2: "Given a = 2, b = 5, and c = -(1/3), find the value of (a/4) - 6(bc-a).",
-    3: "Ashley bought x slices of vanilla-flavored cake and y slices of chocolate-flavored cake. If the cost of one slice of vanilla-flavored cake and a slice of chocolate-flavored cake is RM5 and RM6, respectively, express the amount to be paid by Ashley in terms of x and y. State the result when x=5 and y=7.",
+    3: "Ashley bought x slices of vanilla-flavored cake and y slices of chocolate-flavored cake.\nIf the cost of one slice of vanilla-flavored cake and a slice of chocolate-flavored cake is RM5 and RM6, respectively,\nexpress the amount to be paid by Ashley in terms of x and y. State the result when x=5 and y=7.",
     4: "In a market, Miss Sally bought x kg of chicken at RM 8 per kg and y kg of beef at RM22 per kg. Show the result when x=2 and y=2.",
-    5: "On a particular day, a machine produced 1750 marbles, 18 of which were substandard. After removing all the substandard marbles, the remaining marbles are packed into x containers, each with a capacity of 40 marbles. Calculate the minimum number of containers required to pack the remaining marbles."
+    5: "On a particular day, a machine produced 1750 marbles, 18 of which were substandard.\nAfter removing all the substandard marbles, the remaining marbles are packed into x containers, each with a capacity of 40 marbles.\nCalculate the minimum number of containers required to pack the remaining marbles."
 }
 
 # Function to display the list of available problems
 def display_problems():
     print("\n_________________________________________________________________________________________________________________________________________________________________________________________________\n")
-    print("\nAvailable problems:")
+    print("\nAvailable problems:\n")
     for num, desc in problems.items():
-        print(f"{num}. {desc}")
+        print(f"Question {num}:\n{desc}\n")
     print("\n_________________________________________________________________________________________________________________________________________________________________________________________________\n")
 
 # Main program
